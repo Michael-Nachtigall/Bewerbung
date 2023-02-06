@@ -47,6 +47,7 @@ body {
 /*___Headline___*/
 .Headline_Container {
     position: fixed;
+      z-index: 1;
     margin-top: -125px;
     outline: auto;
     width: 99%;
