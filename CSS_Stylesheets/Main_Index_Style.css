@@ -46,14 +46,13 @@ body {
 
 /*___Headline___*/
 .Headline_Container {
+    overflow: hidden;
     position: fixed;
     z-index: 1;
     margin-top: -125px;
     outline: auto;
     width: 99%;
-    justify-content: center;
     display: flex;
-    justify-content: center;
     background-color: rgb(30 30 30);
     border-top-left-radius: 3rem;
     border-top-right-radius: 3rem;
@@ -66,9 +65,14 @@ body {
 /*Navbar Position*/
 .Navbar {
     display: flex;
+    width: 99%;
+    position: fixed;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(30 30 30);
+    margin-top: 30px;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
 }
 
 /*Navbar Text*/
@@ -79,7 +83,9 @@ a {
     margin-left: 16px;
     font-weight: bold;
 }
-
+.Headline {
+   margin-left: 50px;
+}
 /*Navbar Text Contact*/
 .NavBContact {
     text-decoration: none;
