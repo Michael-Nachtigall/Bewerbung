@@ -87,6 +87,7 @@ a {
 .Headline {
     z-index: 2;
     margin-left: 50px;
+    display: flex;
 }
 
 /*Navbar Text Contact*/
@@ -226,6 +227,7 @@ a {
 
 /*Href-Link*/
 .PopUp-Verlinkungen {
+    font-size:0.7vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,29 +239,47 @@ a {
 
 /*Icons*/
 .icons {
-    width: 30%;
-    height: 30%;
-    min-width: 30%;
-    min-height: 30%;
+    width: 10vw;
+    height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
     margin-top: 16px;
+    margin-left: 6vw;
 }
 
     .icons:hover {
         cursor: pointer;
         background: rgb(44 44 44);
-        border-radius: 5rem;
+        border-radius: 8rem;
+    }
+
+.iconsT {
+    width: 10vw;
+    height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
+    margin-top: 16px;
+}
+
+    .iconsT:hover {
+        cursor: pointer;
+        background: rgb(44 44 44);
+        border-radius: 8rem;
     }
 
 .Icon {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
-
+.name{
+    margin-left: 5.5vw;
+}
 /*PopUp Overlays*/
 .popup .overlay {
     position: fixed;
+    font-size: 1vw;
     top: 0px;
     left: 0px;
     width: 100vw;

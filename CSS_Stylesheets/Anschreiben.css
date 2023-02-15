@@ -225,6 +225,7 @@ a {
 /*Anschreiben*/
 .Anschreiben-Block {
     display: flex;
+    font-size:1vw;
     justify-content: center;
     align-items: center;
     background-color: rgb(30 30 30);
