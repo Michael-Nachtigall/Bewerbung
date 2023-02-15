@@ -276,6 +276,9 @@ a {
 .name{
     margin-left: 5.5vw;
     font-size: 1vw;
+    
+    .Tname{
+    font-size: 1vw;
 }
 /*PopUp Overlays*/
 .popup .overlay {
