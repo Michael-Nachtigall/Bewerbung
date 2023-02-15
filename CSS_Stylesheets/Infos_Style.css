@@ -280,7 +280,6 @@ a {
 /*PopUp Overlays*/
 .popup .overlay {
     position: fixed;
-    font-size: 1vw;
     top: 0px;
     left: 0px;
     width: 100vw;
