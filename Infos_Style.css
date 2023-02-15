@@ -1,0 +1,405 @@
+﻿/*___Animation___*/
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*___Scrollbar___*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(30 30 30);
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: whitesmoke;
+    }
+
+/*___Body___*/
+body {
+    margin-top: 150px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background: #111;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*___Headline___*/
+.Headline_Container {
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    margin-top: -125px;
+    outline: auto;
+    width: 99%;
+    display: flex;
+    background-color: rgb(30 30 30);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+/*____Navbar____*/
+
+/*Navbar Position*/
+.Navbar {
+    display: flex;
+    width: 99%;
+    position: fixed;
+    justify-content: center;
+    margin-top: 30px;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+/*Navbar Text*/
+a {
+    margin-right: 14px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+.Headline {
+    z-index: 2;
+    margin-left: 50px;
+    display: flex;
+}
+
+/*Navbar Text Contact*/
+.NavBContact {
+    text-decoration: none;
+    color: #111;
+}
+
+/*Navbar Button selection (format)*/
+
+/*Infos*/
+.Infos_Button {
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+    padding: 0.5px;
+    border-radius: 3rem;
+    padding: 0.5px;
+    background-color: grey;
+}
+
+    .Infos_Button:hover {
+        margin-left: 14px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3rem;
+        padding: 0.5px;
+        background-color: #111;
+    }
+
+/*Anschreiben*/
+.Anschreiben_Button {
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3rem;
+}
+
+    .Anschreiben_Button:hover {
+        margin-left: 14px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3rem;
+        padding: 0.5px;
+        background-color: grey;
+    }
+
+/*Lebenslauf*/
+.Lebenslauf_Button {
+    display: flex;
+    margin-left: 14px;
+    justify-content: center;
+    border-radius: 3rem;
+}
+
+    .Lebenslauf_Button:hover {
+        display: flex;
+        margin-left: 14px;
+        justify-content: center;
+        border-radius: 3rem;
+        padding: 0.5px;
+        background-color: grey;
+    }
+
+/*Zertifikate*/
+.Zertifikat_Button {
+    display: flex;
+    margin-left: 14px;
+    border-radius: 2rem;
+}
+
+    .Zertifikat_Button:hover {
+        display: flex;
+        margin-left: 14px;
+        border-radius: 2rem;
+        padding: 0.5px;
+        background-color: grey;
+    }
+
+/*Kontaktieren*/
+.Kontaktieren_Button {
+    display: flex;
+    margin-left: 14px;
+    border-radius: 2rem;
+    margin-left: 14px;
+    border-radius: 2rem;
+    padding: 0.5px;
+    background-color: whitesmoke;
+}
+
+    .Kontaktieren_Button:hover {
+        display: flex;
+        margin-left: 14px;
+        border-radius: 2rem;
+        padding: 0.5px;
+        background-color: Green;
+    }
+
+
+/*___Banner___*/
+.Banner_Container {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    background: rgb(30 30 30);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+/*Banner Image reference*/
+.Banner_Image {
+    margin-top: 15px;
+    width: 100%;
+    height: 29vh;
+    object-fit: cover;
+    object-position: 50% 22%;
+    border-radius: 4rem;
+    margin-bottom: 16px;
+    transition-duration: 1000ms;
+}
+
+.Description-titel {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30 30 30);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+/*___PopUps___*/
+
+/*Href-Link*/
+.PopUp-Verlinkungen {
+    font-size:0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30 30 30);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-align: center;
+}
+
+/*Icons*/
+.icons {
+    width: 10vw;
+    height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
+    margin-top: 16px;
+    margin-left: 6vw;
+}
+
+    .icons:hover {
+        cursor: pointer;
+        background: rgb(44 44 44);
+        border-radius: 8rem;
+    }
+
+.iconsT {
+    width: 10vw;
+    height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
+    margin-top: 16px;
+}
+
+    .iconsT:hover {
+        cursor: pointer;
+        background: rgb(44 44 44);
+        border-radius: 8rem;
+    }
+
+.Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin-left: 5.5vw;
+    font-size: 2vw;
+}
+/*PopUp Overlays*/
+.popup .overlay {
+    position: fixed;
+    font-size: 1vw;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+/*Content*/
+.popup .Content-Tel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgb(30 30 30);
+    width: 650px;
+    height: 350px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    font-size: 22px;
+}
+
+.popup .Content-E-Mail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgb(30 30 30);
+    width: 650px;
+    height: 350px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    font-size: 22px;
+}
+
+.popup .Content-Standort {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgb(30 30 30);
+    width: 650px;
+    height: 350px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    font-size: 22px;
+}
+
+.popup .Content-Instagram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgb(30 30 30);
+    width: 650px;
+    height: 350px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3rem;
+    font-size: 22px;
+}
+
+/*PopUp Close Button*/
+.popup .close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 35px;
+    height: 35px;
+    background: #111;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+    .popup .close-btn:hover {
+        background: grey;
+    }
+
+/*PopUps Active state*/
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .Content-Tel {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup.active .Content-E-Mail {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup.active .Content-Standort {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup.active .Content-Instagram {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
